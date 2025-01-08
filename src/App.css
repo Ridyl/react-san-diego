@@ -1,1 +1,28 @@
-/* Add your custom css here */
+body {
+    background-image: linear-gradient(to right, rgb(34, 145, 179), rgb(68, 196, 228));
+}
+
+#header {
+    background-color: white;
+    margin: 25px auto 25px auto;
+    padding: 15px;
+    box-shadow: 5px 2px 10px 0px;
+}
+
+#topspots {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 2px 10px 0px;
+}
+
+#topspot {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 15px 0 15px 0;
+}
+
+a {
+    width: 150px;
+    align-self: flex-end;
+}
